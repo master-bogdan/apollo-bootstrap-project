@@ -1,0 +1,135 @@
+#wrap {
+    padding: 5% 0;
+}
+
+header, section, footer {
+    padding: 2%;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 span {
+    font-weight: 200;
+}
+
+p {
+    font-size: 15px;
+}
+
+#header-container {
+    background: url(../img/header_background.jpg) no-repeat;
+    background-size: cover;
+    height: 550px;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+}
+
+#header-text {
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 50%;
+    width: 50%;
+}
+
+/* My name is Apollo section */
+
+#my-name-is-apollo{
+    background: url(../img/myname_background.jpg) no-repeat;
+    background-size: cover;
+    height: 550px;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+}
+
+#my-name-img-text {
+    padding: 10% 0;
+}
+
+.my-name-img-text span {
+    font-size: 50px;
+}
+
+#socicons {
+    font-size: 20px;
+}
+
+/* Slider section */
+
+#slider-control {
+    padding: 25%;
+}
+
+/* Ut Emi Section */
+
+#ut-emi {
+    background: url(../img/ut-emi-background.jpg) no-repeat;
+    background-size: cover;
+    padding: 10% 0;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+}
+
+
+/* Slider 2 */
+#slider2 {
+    background: url(../img/ut-emi-background.jpg) no-repeat;
+    background-size: cover;
+    padding: 10% 0;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+}
+
+/*Footer */
+
+#footer {
+    background: url(../img/footer_background.jpg) no-repeat;
+    background-size: cover;
+    padding: 10% 0;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+}
+
+#footer ::placeholder {
+    color: black;
+}
+
+#footer input, #footer textarea {
+    background: transparent;
+}
+
+#footer button {
+    margin-top: 5%;
+}
+
+
+@media only screen and (max-width: 968px) {
+    #header-text{
+        width: 100%;
+    }
+
+    #my-name-is-apollo .col-7 {
+        display: contents;
+    }
+
+    #socicons {
+        width: 100%;
+    }
+
+    #my-name-img-text {
+        flex-direction: column;
+        padding: inherit;
+    }
+
+    #my-name-img-text .col-7 {
+        max-width: 100%;
+    }
+
+    #my-name-img-text .col-5 {
+        margin: 0 auto;
+    }
+
+    #ut-emi .row {
+        flex-direction: column;
+    }
+
+    #ut-emi .col-5, #ut-emi .col-6 {
+        max-width: 75%;
+    }
+}
